@@ -27,7 +27,7 @@ const mockArgv = require('mock-argv')
 
 test('works', async () => {
 
-  await mockArgv(['foo', 'bar'], () => {
+  mockArgv(['foo', 'bar'], () => {
     //> process.argv = [
     //>   'path-to-node',
     //>   'path-to-current-script',
@@ -37,6 +37,8 @@ test('works', async () => {
   })
 
   //> process.argv = ['path-to-node', 'path-to-current-script', '...other-params']
+
+  // Also works for async functions
 })
 ```
 
