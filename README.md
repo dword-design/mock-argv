@@ -34,10 +34,10 @@ test('works', async () => {
     //>   'foo',
     //>   'bar',
     //> ]
-  )
+  })
 
   //> process.argv = ['path-to-node', 'path-to-current-script', '...other-params']
-}))
+})
 ```
 
 <!--@license()-->
