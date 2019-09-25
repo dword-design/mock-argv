@@ -14,10 +14,10 @@ Temporarily overrides the command line arguments. This is useful for testing.
 
 ```sh
 # via NPM
-npm install --save mock-argv
+npm install --save-dev mock-argv
 
 # via Yarn
-yarn add mock-argv
+yarn add --dev mock-argv
 ```
 
 ## Usage
