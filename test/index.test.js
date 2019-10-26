@@ -1,26 +1,27 @@
-const mockArgv = require('this')
+const mockArgv = require('mock-argv')
+const expect = require('expect')
 
 const firstArgv = process.argv.slice(0, 2)
 
-test('missing args', () => {
+it('missing args', () => {
   let argv
   mockArgv(() => argv = process.argv)
   expect(argv).toEqual(firstArgv)
 })
 
-test('empty args', () => {
+it('empty args', () => {
   let argv
   mockArgv([], () => argv = process.argv)
   expect(argv).toEqual(firstArgv)
 })
 
-test('has args', () => {
+it('has args', () => {
   let argv
   mockArgv(['foo', 'bar'], () => argv = process.argv)
   expect(argv).toEqual([...firstArgv, 'foo', 'bar'])
 })
 
-test('async', async () => {
+it('async', async () => {
   let argv
   await mockArgv(
     ['foo', 'bar'],
