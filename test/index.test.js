@@ -1,31 +1,25 @@
-const mockArgv = require('mock-argv')
-const expect = require('expect')
+import mockArgv from 'mock-argv'
 
 const firstArgv = process.argv.slice(0, 2)
 
-it('missing args', () => {
-  let argv
-  mockArgv(() => argv = process.argv)
-  expect(argv).toEqual(firstArgv)
-})
+describe('index', () => {
 
-it('empty args', () => {
-  let argv
-  mockArgv([], () => argv = process.argv)
-  expect(argv).toEqual(firstArgv)
-})
+  it('missing args', done => {
+    mockArgv(() => { expect(process.argv).toEqual(firstArgv); done() })
+  })
 
-it('has args', () => {
-  let argv
-  mockArgv(['foo', 'bar'], () => argv = process.argv)
-  expect(argv).toEqual([...firstArgv, 'foo', 'bar'])
-})
+  it('empty args', done => {
+    mockArgv([], () => { expect(process.argv).toEqual(firstArgv); done() })
+  })
 
-it('async', async () => {
-  let argv
-  await mockArgv(
-    ['foo', 'bar'],
-    () => new Promise(resolve => setTimeout(() => { argv = process.argv; return resolve() }, 100))
-  )
-  expect(argv).toEqual([...firstArgv, 'foo', 'bar'])
+  it('has args', done => {
+    mockArgv(['foo', 'bar'], () => { expect(process.argv).toEqual([...firstArgv, 'foo', 'bar']); done() })
+  })
+
+  it('async', async () => {
+    await mockArgv(
+      ['foo', 'bar'],
+      () => new Promise(resolve => setTimeout(() => { expect(process.argv).toEqual([...firstArgv, 'foo', 'bar']); return resolve() }, 100))
+    )
+  })
 })

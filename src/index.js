@@ -1,4 +1,4 @@
-module.exports = async (args, callback) => {
+export default (args, callback) => {
   if (typeof args === 'function') {
     callback = args
     args = []
@@ -7,9 +7,5 @@ module.exports = async (args, callback) => {
   const oldArgv = process.argv
   process.argv = [...oldArgv.slice(0, 2), ...args]
 
-  try {
-    await callback()
-  } finally {
-    process.argv = oldArgv
-  }
+  return Promise.resolve().then(callback).finally(() => process.argv = oldArgv)
 }
