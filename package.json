@@ -1,6 +1,6 @@
 {
   "name": "mock-argv",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "repository": "https://github.com/dword-design/mock-argv",
   "author": "Sebastian Landwehr <info@dword-design.de>",
