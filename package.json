@@ -23,9 +23,6 @@
     "prepare": "base",
     "test": "base test"
   },
-  "mos": {
-    "installation": false
-  },
   "devDependencies": {
     "@dword-design/base-node": "^0.3.0"
   }

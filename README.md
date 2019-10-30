@@ -10,15 +10,17 @@
 Temporarily overrides the command line arguments. This is useful for testing.
 <!--/@-->
 
+<!--@installation()-->
 ## Installation
 
 ```sh
 # via NPM
-npm install --save-dev mock-argv
+npm install --save mock-argv
 
 # via Yarn
-yarn add --dev mock-argv
+yarn add mock-argv
 ```
+<!--/@-->
 
 ## Usage
 
