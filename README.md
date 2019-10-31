@@ -2,8 +2,8 @@
 # mock-argv
 <!--/@-->
 
-<!--@shields('npm', 'travis', 'coveralls')-->
-[![npm version](https://img.shields.io/npm/v/mock-argv.svg)](https://www.npmjs.com/package/mock-argv) [![Build Status](https://img.shields.io/travis/dword-design/mock-argv/master.svg)](https://travis-ci.org/dword-design/mock-argv) [![Coverage Status](https://img.shields.io/coveralls/dword-design/mock-argv/master.svg)](https://coveralls.io/r/dword-design/mock-argv?branch=master)
+<!--@shields('npm', 'travis', 'coveralls', 'deps')-->
+[![npm version](https://img.shields.io/npm/v/mock-argv.svg)](https://www.npmjs.com/package/mock-argv) [![Build Status](https://img.shields.io/travis/dword-design/mock-argv/master.svg)](https://travis-ci.org/dword-design/mock-argv) [![Coverage Status](https://img.shields.io/coveralls/dword-design/mock-argv/master.svg)](https://coveralls.io/r/dword-design/mock-argv?branch=master) [![dependency status](https://img.shields.io/david/dword-design/mock-argv.svg)](https://david-dm.org/dword-design/mock-argv)
 <!--/@-->
 
 <!--@pkg.description-->

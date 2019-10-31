@@ -1,6 +1,6 @@
 {
   "name": "mock-argv",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "dist/index.js",
   "repository": "https://github.com/dword-design/mock-argv",
   "author": "Sebastian Landwehr <info@dword-design.de>",
@@ -20,10 +20,10 @@
     "restore"
   ],
   "scripts": {
-    "prepare": "base",
-    "test": "base test"
+    "prepare": "base-node prepare",
+    "test": "base-node test"
   },
   "devDependencies": {
-    "@dword-design/base-node": "^0.3.0"
+    "@dword-design/base-node": "^0.4.1"
   }
 }
