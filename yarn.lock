@@ -1304,7 +1304,6 @@ chardet@^0.7.0:
 
 chdir@dword-design/node-chdir#fork:
   version "0.0.0"
-  uid "55004473579e2b8d293ced5410af5948793971b6"
   resolved "https://codeload.github.com/dword-design/node-chdir/tar.gz/55004473579e2b8d293ced5410af5948793971b6"
 
 child-process-promise@^2.2.1:
@@ -1650,7 +1649,6 @@ delegates@^1.0.0:
 
 depcheck@dword-design/depcheck#fork:
   version "0.0.1"
-  uid "9d6759f8d53b764dbd3183e19ea1375426a4b3a0"
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/9d6759f8d53b764dbd3183e19ea1375426a4b3a0"
   dependencies:
     "@babel/parser" "^7.3.1"
@@ -2521,7 +2519,6 @@ inquirer@^7.0.0:
 
 install-self@dword-design/install-self#fork:
   version "1.0.0-beta.7"
-  uid "36616b93446a4606414fbab35adbd8989106d52b"
   resolved "https://codeload.github.com/dword-design/install-self/tar.gz/36616b93446a4606414fbab35adbd8989106d52b"
   dependencies:
     fs-extra "^8.1.0"
