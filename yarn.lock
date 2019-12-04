@@ -763,9 +763,9 @@
     "@dword-design/base" "^3.0.0"
 
 "@dword-design/base@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-3.0.1.tgz#45b00b62ed366f215ea6863f05ff476af4a9bb24"
-  integrity sha512-so3RwSMK1Tqh/cHIy23O0P0IsV9c1eV96ui4WwZ1v9/uBcBnTl/H1PTwM+ZAh/g0w600h1hmPwSuErrJZopDyQ==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@dword-design/base/-/base-3.0.2.tgz#6d0d8e7b987d6d787d0b219cb37106bf8367ab83"
+  integrity sha512-n6Unuc0lTJ+D8e6QLJ7JT0+sqiGL51xf0kdqycRNtQig/6Rf1vRbWJDRzSL8KVabh/shLU9u8wIT68nKdNW+nw==
   dependencies:
     "@babel/cli" "^7.6.4"
     "@babel/core" "^7.6.4"
