@@ -1,26 +1,36 @@
 {
   "name": "mock-argv",
-  "version": "1.0.10",
-  "main": "dist/index.js",
-  "repository": "dword-design/mock-argv",
-  "author": "Sebastian Landwehr <info@dword-design.de>",
-  "license": "MIT",
+  "version": "1.1.0",
   "description": "Temporarily overrides the command line arguments. This is useful for testing.",
   "keywords": [
-    "argv",
     "args",
     "arguments",
-    "process",
-    "test",
-    "temporary",
-    "tmp",
-    "temp",
+    "argv",
     "mock",
+    "process",
     "replace",
-    "restore"
+    "restore",
+    "temp",
+    "temporary",
+    "test",
+    "tmp"
   ],
+  "bugs": {
+    "url": "https://github.com/dword-design/mock-argv/issues"
+  },
+  "repository": "dword-design/mock-argv",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "contributors": [
+    "Renovate Bot (http://renovatebot.com)",
+    "dword-design (http://www.dword-design.de)"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "scripts": {
-    "prepare": "base-node prepare",
+    "prepublishOnly": "base-node build",
     "start": "base-node start",
     "test": "base-node test"
   },
@@ -28,12 +38,5 @@
     "@dword-design/base-node": "^1.0.0",
     "expect": "^24.9.0"
   },
-  "maintainers": [],
-  "contributors": [
-    "Renovate Bot (http://renovatebot.com)",
-    "dword-design (http://www.dword-design.de)"
-  ],
-  "bugs": {
-    "url": "https://github.com/dword-design/mock-argv/issues"
-  }
+  "maintainers": []
 }
