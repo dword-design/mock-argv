@@ -21,22 +21,22 @@
   "repository": "dword-design/mock-argv",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
-  "contributors": [
-    "Renovate Bot (http://renovatebot.com)",
-    "dword-design (http://www.dword-design.de)"
-  ],
   "files": [
     "dist"
   ],
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "base-node build",
-    "start": "base-node start",
-    "test": "base-node test"
+    "prepublishOnly": "base build",
+    "start": "base start",
+    "test": "base test"
   },
   "devDependencies": {
-    "@dword-design/base-node": "^1.0.0",
+    "@dword-design/base": "^3.4.4",
     "expect": "^24.9.0"
   },
+  "contributors": [
+    "Renovate Bot (http://renovatebot.com)",
+    "dword-design (http://www.dword-design.de)"
+  ],
   "maintainers": []
 }
