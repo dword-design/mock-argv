@@ -822,9 +822,9 @@
     stable-version-regex "^1.0.1"
 
 "@dword-design/test-aliases@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@dword-design/test-aliases/-/test-aliases-1.0.0.tgz#19ce133e733000aed47ea9c07f0e40a06839654b"
-  integrity sha512-aD45VWFGNlKRRXaqAXdlMl+VwY0mMYKEJrQv1lnImnBOxmJ2IIaxEoNfzGLf6GQB2IRPztrhsbPz/bnYs5LrMw==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@dword-design/test-aliases/-/test-aliases-1.0.1.tgz#e489fe018905c9b17c98aabe864b96d103e55935"
+  integrity sha512-YKzlezh5nP2lrxFL4+mSRdvMppJs/NpjevE6ystWz4PD88sD8WeSvOO9fuSc0FyaUI/jFjNsBE7CLqp3x/NH7g==
   dependencies:
     "@dword-design/functions" "^2.2.2"
     read-all-up "^1.0.1"
@@ -1359,6 +1359,7 @@ chardet@^0.7.0:
 
 chdir@dword-design/node-chdir#fork:
   version "0.0.0"
+  uid "55004473579e2b8d293ced5410af5948793971b6"
   resolved "https://codeload.github.com/dword-design/node-chdir/tar.gz/55004473579e2b8d293ced5410af5948793971b6"
 
 child-process-promise@^2.2.1:
@@ -1722,6 +1723,7 @@ delegates@^1.0.0:
 
 depcheck@dword-design/depcheck#fork:
   version "0.0.1"
+  uid c26892d97de67e476566ece801a046dbd718f21b
   resolved "https://codeload.github.com/dword-design/depcheck/tar.gz/c26892d97de67e476566ece801a046dbd718f21b"
   dependencies:
     "@babel/parser" "^7.6.4"
@@ -3211,9 +3213,9 @@ lru-cache@^4.0.1, lru-cache@^4.1.5:
     yallist "^2.1.2"
 
 make-cli@^1.0.12, make-cli@^1.0.9:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/make-cli/-/make-cli-1.0.12.tgz#61feea4bc55ab4c106d4092935b83debad2938f7"
-  integrity sha512-5z2zQ3iT7elwP5zBXEGXArPNo/AFbsvSqJZztHFNzy0wI4tKjUCK8gfGsKW4lxCrc4tWeHxeoKLyvJ7bJMN1qw==
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/make-cli/-/make-cli-1.0.13.tgz#aefa47cc6e7dc308defe1f69b66a1a19e237fe7c"
+  integrity sha512-FHRnr9FCLpVeQQvYtTO4BNM+5LDmMrsMYFzAFwhEJGvltgjaoIH/YTO2hJYCX4Yy3eDWPgzDzEMMnR9s5IFkVg==
   dependencies:
     commander "^4.0.0"
 
