@@ -30,7 +30,8 @@ Temporarily overrides the command line arguments. This is useful for testing.
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
 <ul>
 <li>Install: <code>npm install --save mock-argv</code></li>
-<li>Require: <code>require('mock-argv')</code></li>
+<li>Import: <code>import * as pkg from ('mock-argv')</code></li>
+<li>Require: <code>const pkg = require('mock-argv')</code></li>
 </ul>
 
 <!-- /INSTALL -->
