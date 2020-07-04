@@ -1,11 +1,13 @@
-export default (args, callback) => {
+export default async (args, func) => {
   if (typeof args === 'function') {
-    callback = args
+    func = args
     args = []
   }
-
   const oldArgv = process.argv
   process.argv = [...oldArgv.slice(0, 2), ...args]
-
-  return Promise.resolve().then(callback).finally(() => process.argv = oldArgv)
+  try {
+    await func()
+  } finally {
+    process.argv = oldArgv
+  }
 }
