@@ -5,7 +5,6 @@
 <!-- BADGES/ -->
 [![NPM version](https://img.shields.io/npm/v/mock-argv.svg)](https://npmjs.org/package/mock-argv)
 ![Linux macOS Windows compatible](https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue)
-
 [![Build status](https://img.shields.io/github/workflow/status/dword-design/mock-argv/build)](https://github.com/dword-design/mock-argv/actions)
 [![Coverage status](https://img.shields.io/coveralls/dword-design/mock-argv)](https://coveralls.io/github/dword-design/mock-argv)
 [![Dependency status](https://img.shields.io/david/dword-design/mock-argv)](https://david-dm.org/dword-design/mock-argv)
@@ -20,7 +19,7 @@ Temporarily overrides the command line arguments. This is useful for testing.
 <!-- /DESCRIPTION -->
 
 <!-- INSTALL/ -->
-# Install
+## Install
 
 ```bash
 # NPM
@@ -54,7 +53,7 @@ test('works', async () => {
 ```
 
 <!-- LICENSE/ -->
-# License
+## License
 
 Unless stated otherwise all works are:
 
