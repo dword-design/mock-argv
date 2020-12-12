@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/dword-design/mock-argv/compare/v1.1.9...v1.1.10) (2020-12-12)
+
+
+### Bug Fixes
+
+* Add TypeScript declaration ([9a6222d](https://github.com/dword-design/mock-argv/commit/9a6222d0ee09689c1a913d023553a3cef048e272))
+
 ## [1.1.9](https://github.com/dword-design/mock-argv/compare/v1.1.8...v1.1.9) (2020-12-02)
 
 
