@@ -1,6 +1,3 @@
-* TypeScript declaration is added
-
-## [1.1.9](https://github.com/dword-design/mock-argv/compare/v1.1.8...v1.1.9) (2020-12-02)
 
 ### Bug Fixes
 
