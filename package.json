@@ -19,6 +19,7 @@
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
+  "types": "types.d.ts",
   "files": [
     "dist"
   ],
