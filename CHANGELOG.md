@@ -1,5 +1,6 @@
 ## [1.1.9](https://github.com/dword-design/mock-argv/compare/v1.1.8...v1.1.9) (2020-12-02)
 
+
 ### Bug Fixes
 
 * **config:** Update changed files ([c21aedf](https://github.com/dword-design/mock-argv/commit/c21aedff08b67c64cb82444e3fd7d7fec384efa9))
