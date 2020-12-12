@@ -1,3 +1,5 @@
+// foo
+
 export default async (args, func) => {
   if (typeof args === 'function') {
     func = args
