@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/dword-design/mock-argv/compare/v1.1.10...v1.1.11) (2021-02-17)
+
+
+### Bug Fixes
+
+* upgrades ([dbf2058](https://github.com/dword-design/mock-argv/commit/dbf20583861608579f99ee931d2ffb2e85cff0f8))
+
 ## [1.1.10](https://github.com/dword-design/mock-argv/compare/v1.1.9...v1.1.10) (2020-12-12)
 
 
