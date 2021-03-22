@@ -85,11 +85,11 @@ test('works', async () => {
 ```
 
 <!-- LICENSE/ -->
-## Contributing
+## Contribute
 
 Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/mock-argv/issues) or [pull request](https://github.com/dword-design/mock-argv/pulls)! ⚙️
 
-## Support Me
+## Support
 
 Hey, I am Sebastian Landwehr, a freelance web developer, and I love developing web apps and open source packages. If you want to support me so that I can keep packages up to date and build more helpful tools, you can donate here:
 
