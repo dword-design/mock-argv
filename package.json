@@ -1,6 +1,6 @@
 {
   "name": "mock-argv",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "Temporarily overrides the command line arguments. This is useful for testing.",
   "keywords": [
     "args",
