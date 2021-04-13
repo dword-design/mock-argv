@@ -12,6 +12,7 @@ export default {
               'foo',
               'bar',
             ])
+
             return resolve()
           }, 100)
         )

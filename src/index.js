@@ -3,6 +3,7 @@ export default async (args, func) => {
     func = args
     args = []
   }
+
   const oldArgv = process.argv
   process.argv = [...oldArgv.slice(0, 2), ...args]
   try {
