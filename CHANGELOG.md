@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/dword-design/mock-argv/compare/v1.1.14...v1.1.15) (2021-04-20)
+
+
+### Bug Fixes
+
+* updated package.json[keywords] ([#41](https://github.com/dword-design/mock-argv/issues/41)) ([6dfcb3b](https://github.com/dword-design/mock-argv/commit/6dfcb3b3922b9192626ad55dde0770280228c842))
+
 ## [1.1.14](https://github.com/dword-design/mock-argv/compare/v1.1.13...v1.1.14) (2021-04-13)
 
 
