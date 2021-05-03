@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/mock-argv/compare/v1.1.15...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#44](https://github.com/dword-design/mock-argv/issues/44)) ([cd266b7](https://github.com/dword-design/mock-argv/commit/cd266b7aa58a4eb107a5a54515e999d3f3b11d37))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.1.15](https://github.com/dword-design/mock-argv/compare/v1.1.14...v1.1.15) (2021-04-20)
 
 
