@@ -31,7 +31,8 @@
   "main": "dist/index.js",
   "types": "types.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "types.d.ts"
   ],
   "scripts": {
     "checkUnknownFiles": "base checkUnknownFiles",
