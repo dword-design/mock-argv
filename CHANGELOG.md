@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/mock-argv/compare/v2.0.1...v2.0.2) (2021-06-08)
+
+
+### Bug Fixes
+
+* add `types.d.ts` ([#48](https://github.com/dword-design/mock-argv/issues/48)) ([69d99de](https://github.com/dword-design/mock-argv/commit/69d99dec1879eb42e65c74976b1405d67685561a))
+
 ## [2.0.1](https://github.com/dword-design/mock-argv/compare/v2.0.0...v2.0.1) (2021-05-28)
 
 
