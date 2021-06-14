@@ -27,7 +27,7 @@
   "repository": "dword-design/mock-argv",
   "funding": "https://www.buymeacoffee.com/dword",
   "license": "MIT",
-  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
   "main": "dist/index.js",
   "types": "types.d.ts",
   "files": [
