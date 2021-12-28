@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-  <p>
+<p>
     <a href="https://npmjs.org/package/mock-argv">
       <img
         src="https://img.shields.io/npm/v/mock-argv.svg"
