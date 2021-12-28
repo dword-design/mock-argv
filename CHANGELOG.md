@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/dword-design/mock-argv/compare/v2.0.6...v2.0.7) (2021-12-28)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#79](https://github.com/dword-design/mock-argv/issues/79)) ([2f9ed04](https://github.com/dword-design/mock-argv/commit/2f9ed0441a250c7387082a58addb40b527e09a2f))
+
 ## [2.0.6](https://github.com/dword-design/mock-argv/compare/v2.0.5...v2.0.6) (2021-07-20)
 
 
