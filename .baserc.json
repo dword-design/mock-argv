@@ -1,4 +1,5 @@
 {
+  "name": "@dword-design/node",
   "seeAlso": [
     { "repository": "output-files", "description": "Output a tree of files and directories by providing an object. Especially useful for testing with real files." },
     { "repository": "with-local-tmp-dir", "description": "Creates a temporary folder inside cwd, cds inside the folder, runs a function, and removes the folder. Especially useful for testing." },
