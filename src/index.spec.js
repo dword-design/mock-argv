@@ -1,4 +1,4 @@
-import mockArgv from '.'
+import mockArgv from './index.js'
 
 export default {
   async: () =>
