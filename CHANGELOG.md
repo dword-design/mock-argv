@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/dword-design/mock-argv/compare/v2.0.8...v3.0.0) (2023-01-08)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#100](https://github.com/dword-design/mock-argv/issues/100)) ([488e5b3](https://github.com/dword-design/mock-argv/commit/488e5b3083d9e898205be29c15f43378468fedea))
+
+
+### BREAKING CHANGES
+
+* drop node 12 support, move to esm
+
 ## [2.0.8](https://github.com/dword-design/mock-argv/compare/v2.0.7...v2.0.8) (2022-01-12)
 
 
