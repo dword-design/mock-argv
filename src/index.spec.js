@@ -14,8 +14,8 @@ export default {
             ])
 
             return resolve()
-          }, 100)
-        )
+          }, 100),
+        ),
     ),
   'empty args': done => {
     mockArgv([], () => {
