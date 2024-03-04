@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/dword-design/mock-argv/compare/v3.0.0...v4.0.0) (2024-03-04)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#106](https://github.com/dword-design/mock-argv/issues/106)) ([8f519e5](https://github.com/dword-design/mock-argv/commit/8f519e56f9f7a08bea31b87931a5adc865c25e2e))
+
+
+### BREAKING CHANGES
+
+* node.js >= 18
+
 # [3.0.0](https://github.com/dword-design/mock-argv/compare/v2.0.8...v3.0.0) (2023-01-08)
 
 
