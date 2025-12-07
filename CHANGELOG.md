@@ -1,3 +1,16 @@
+# [5.0.0](https://github.com/dword-design/mock-argv/compare/v4.0.0...v5.0.0) (2025-12-07)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#111](https://github.com/dword-design/mock-argv/issues/111)) ([ec01a5b](https://github.com/dword-design/mock-argv/commit/ec01a5bfccaf0ef46705ddd942b3adeb94baf458))
+* update config files ([6a14e92](https://github.com/dword-design/mock-argv/commit/6a14e92bd89b9e595db3454b5e7cda42d9547141))
+
+
+### BREAKING CHANGES
+
+* node.js >= 22
+
 # [4.0.0](https://github.com/dword-design/mock-argv/compare/v3.0.0...v4.0.0) (2024-03-04)
 
 
